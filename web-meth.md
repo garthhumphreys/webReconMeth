@@ -1,0 +1,29 @@
+# Website Recon Checklist 
+
+- Identify IPs and main TLDs
+    - cert.sh
+    - dnsdumpster
+    - amass
+- Domain scraping for discovered TLDs
+    - google dorks
+- Domain Bruteforcing Resolve & add new IP ranges
+    - amass
+    - massdns
+- Identify live domains
+    - httprobe
+- Portscan to determine services running
+    - nmap
+    - masscan
+- Screenshot domains
+    - ???
+- Identify Platform/CMS types
+    - whatcms.org
+    - ???
+- Folder/Files Discovery
+    - dirsearch
+    - ???
+    - waybackurls (wayback)
+    - JSParser (or some js finder)
+- Parameters/Queries Discovery
+    - dirsearch
+    - ???
